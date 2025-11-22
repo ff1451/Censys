@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    // Node CLI용 기본 설정
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+
+    // Node 런타임 타입 정의
+    "lib": ["ES2020"],
+    "types": ["node"],
+
+    // 출력 관련(원하면 꺼도 됨)
+    "sourceMap": true,
+    "declaration": false,
+    "declarationMap": false,
+
+    // 타입 체크 옵션
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    // 기타
+    "skipLibCheck": true,
+    "esModuleInterop": true
+  }
+}
